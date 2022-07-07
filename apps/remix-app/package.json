@@ -4,7 +4,7 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix build && rollup -c",
+    "build": "remix build && rollup -c && rm api/api.js",
     "dev": "remix dev"
   },
   "dependencies": {
